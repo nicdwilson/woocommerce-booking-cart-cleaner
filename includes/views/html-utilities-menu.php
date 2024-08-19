@@ -13,8 +13,6 @@ defined( 'ABSPATH' ) || exit;
 
         <form method="post" action="options.php">
 
-            <?php var_dump( $this->settings ); ?>
-
 			<?php settings_fields( 'wc_bookings_utilities_settings_cart' ); ?>
 			<?php do_settings_sections( 'wc-bookings-utilities-settings' ); ?>
 
